@@ -1,8 +1,8 @@
 # React wrapper in Scala.js
 
-This is a wrapper for the [React JavaScript library](http://facebook.github.io/react/).
+This is a wrapper for the [Facebook's React JavaScript library](http://facebook.github.io/react/).
 
-This wrapper is written with [Scala.js](http://www.scala-js.org/) and allows to write React components in Scala.
+This interface is written with [Scala.js](http://www.scala-js.org/) and allows to write React components in [Scala](http://www.scala-lang.org/).
 
 It uses [Scala.rx](https://github.com/lihaoyi/scala.rx) to synchronize the model and the view.
 
@@ -12,6 +12,8 @@ It uses [Scala.rx](https://github.com/lihaoyi/scala.rx) to synchronize the model
 The rendering of React components can be optimized if we know that the model has not changed.
 
 With persistent data structures provided in Scala, it is very easy to check if the model has changed: we just checked if the instances are equal.
+
+These ideas were introduced by the [Om framework in ClojureScript](https://github.com/swannodette/om) ([more information](http://swannodette.github.io/2013/12/17/the-future-of-javascript-mvcs/))
 
 
 # how to use it?
