@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Scala.js application</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="http://fb.me/react-0.10.0.min.js"></script>
+</head>
+<body>
+
+<h1>React Scala.js application - optimized version</h1>
+
+<p>using `sbt optimizeJS`</p>
+
+<div id="helloworld"></div>
+<div id="todoapp"></div>
+
+<script type="text/javascript" src="./target/scala-2.10/react-scala-js-opt.js"></script>
+
+<script type="text/javascript">
+    HelloWorldExample().main();
+    TodoApp().main();
+</script>
+
+</body>
+</html>
