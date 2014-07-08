@@ -23,8 +23,8 @@ This project was initialized with the [Scala js example app](https://github.com/
 Just follow the same instructions here to check the examples and to change them.
 
 In `sbt`:
-- `~packageJS` for development (and open `index-dev.html`)
-- `optimizeJS` for production (and open `index.html`)
+- `~fastOptJS` for development (and open `index-fastopt.html`)
+- `fullOptJS` for production (and open `index.html`)
 
 
 ## TODOs

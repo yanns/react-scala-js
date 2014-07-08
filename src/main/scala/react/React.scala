@@ -39,7 +39,7 @@ trait React[M <: AnyRef] {
     if (logEnabled && shouldUpdate) {
       console.log(s"component '$componentName' should be updated\n    model='$model'\nnextModel='$nextModel']")
     }
-    js.Any.fromBoolean(shouldUpdate)
+    shouldUpdate
   }
 
   def shouldComponentUpdate(model: M, nextModel: M): Boolean = {
