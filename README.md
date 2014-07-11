@@ -34,6 +34,7 @@ ideas: [lenses](https://github.com/milessabin/shapeless/wiki/Feature-overview:-s
 ### no more js.Dynamic for DOM
 - Use a type for DOM -> render typesafe
 - provide utilities to construct DOM easier than current DOM.a(js.Dynamic.literal(....))
+- integrate with https://github.com/japgolly/scalajs-react/ or https://github.com/xored/scala-js-react
 
 ### stateful components
 wraps getInitialState, update shouldComponentUpdate...
